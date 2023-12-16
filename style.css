@@ -5,8 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: gray;
+}
 li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 img {
@@ -19,18 +27,22 @@ p {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 header {
-    background-color: #262626;
+    background-color: #2a2a2a;
     color: white;
+}
+
+section {
+    padding: 20px;
 }
 
 .titulo-principal{
     text-align: center;
     padding: 30px;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 /* --- CABEÇALHO --- */
@@ -52,10 +64,6 @@ nav li {
 }
 
 /* --- SEÇÃO PRINCIPAL --- */
-.secao-principal {
-    background-color: bisque;
-}
-
 .utencilios {
     width: 120px;
     height: 120px;
@@ -72,6 +80,10 @@ nav li {
 }
 
 /* --- SEÇÃO PRODUTOS --- */
+#secao-produtos {
+    background-color: white;
+}
+
 .produtos {
     display: flex;
     width: 940px;
@@ -93,26 +105,21 @@ nav li {
 }
 
 /* --- SEÇÃO TABELA --- */
-.secao-tabela {
-    background-color: bisque
-}
-
 table {
     margin: 0 auto;
     text-align: center;
 }
 
 /* --- SEÇÃO LOCALIZAÇÃO --- */
+.secao-local {
+    background-color: white;
+}
 .mapa {
     width: 940px;
     margin: 0 auto;
 }
 
 /* --- SEÇÃO BENEFÍCIOS --- */
-.secao-beneficios {
-    background-color: bisque;
-}
-
 .conteudo-beneficios {
     display: flex;
     width: 640px;
