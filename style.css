@@ -126,6 +126,15 @@ nav li {
     border-radius: 10px;
 }
 
+.produtos li:hover{
+    border-color: orange;
+}
+
+.produtos li:hover h3{
+    font-size: 30px;
+}
+
+
 .produto-preco {
     font-size: 20px;
     font-weight: bold;
