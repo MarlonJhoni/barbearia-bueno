@@ -79,6 +79,33 @@ nav li {
     margin-bottom: 10px;
 }
 
+.container-card {
+    padding: 50px;
+}
+
+.cards {
+    text-align: center;
+    list-style: none;
+}
+
+.cards li {
+    display: inline-block;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.cards li:hover {
+    padding: 20px;
+}
+
+.card-content {
+    margin: 20px;
+}
+
+.img-corte {
+    border-radius: 30px;
+}
+
 /* --- SEÇÃO PRODUTOS --- */
 #secao-produtos {
     background-color: white;
